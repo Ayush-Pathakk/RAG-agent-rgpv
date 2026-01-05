@@ -1,20 +1,27 @@
 import streamlit as st
 import sys
-from pathlib import Path
 import os
+from pathlib import Path
 
+# Add src to Python path
+src_path = Path(__file__).parent / "src"
+sys.path.insert(0, str(src_path))
 
-# Add src to path
-sys.path.append(str(Path(__file__).parent / "src"))
+# Load API key from Streamlit secrets
+if hasattr(st, 'secrets'):
+    if "GROQ_API_KEY" in st.secrets:
+        os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
+# Now import (after path is set)
 from rag_pipeline import RAGPipeline
 
-# Page config
 st.set_page_config(
     page_title="RGPV RAG Assistant",
     page_icon="📚",
     layout="wide"
 )
+
+
 
 # Initialize RAG pipeline (cached)
 @st.cache_resource
