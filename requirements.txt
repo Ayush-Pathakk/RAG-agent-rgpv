@@ -1,0 +1,11 @@
+streamlit
+sentence-transformers
+faiss-cpu
+PyPDF2
+python-dotenv
+groq
+transformers
+torch
+tokenizers
+huggingface-hub
+safetensors
