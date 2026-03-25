@@ -408,25 +408,6 @@ Made with ❤️ for RGPV Students
 
 ---
 
-## **Next Steps:**
-
-1. **Replace placeholders:**
-   - `[Live Demo](your-app-url)` → Add your Streamlit URL
-   - `[Demo Video](#)` → Add your demo video link
-   - Screenshot placeholder → Add actual screenshot
-   - Your LinkedIn link → Add your profile
-
-2. **Add these files** (optional but recommended):
-
-**`LICENSE`** (create this file):
-```
-MIT License
-
-Copyright (c) 2026 Ayush Pathak, Shakshi Tomar
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-(Full MIT license text)
-```
 
 **`.env.example`**:
 ```
