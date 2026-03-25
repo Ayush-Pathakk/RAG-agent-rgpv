@@ -48,7 +48,8 @@ A RAG-based system that retrieves relevant content from indexed study materials 
 
 > **Watch it in action:** [Demo Video](#)
 
-![App Screenshot](https://via.placeholder.com/800x400?text=Add+Your+Screenshot+Here)
+<img width="1364" height="636" alt="image" src="https://github.com/user-attachments/assets/e2b19cfa-5c32-4ffe-ac47-2abcca7658bb" />
+
 
 ---
 
