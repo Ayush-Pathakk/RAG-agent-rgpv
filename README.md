@@ -44,9 +44,6 @@ RGPV RAG Study Assistant is a Retrieval-Augmented Generation (RAG) based chatbot
 **Our Solution:**
 A RAG-based system that retrieves relevant content from indexed study materials and generates accurate, exam-focused answers with source citations—ensuring zero hallucinations.
 
-### 🎥 Demo
-
-> **Watch it in action:** [Demo Video](#)
 
 <img width="1364" height="636" alt="image" src="https://github.com/user-attachments/assets/e2b19cfa-5c32-4ffe-ac47-2abcca7658bb" />
 
